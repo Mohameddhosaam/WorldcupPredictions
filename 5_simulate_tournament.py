@@ -39,18 +39,18 @@ MODELS_DIR = "models"
 # Top 2 from each group + 8 best 3rd-place teams advance (32 total)
 
 GROUPS_2026 = {
-    "A": ["United States", "Panama", "Bolivia", "Morocco"],
-    "B": ["Mexico", "Ecuador", "Jamaica", "Venezuela"],
-    "C": ["Canada", "Uruguay", "Costa Rica", "Senegal"],
-    "D": ["Brazil", "Paraguay", "El Salvador", "Ghana"],
-    "E": ["Argentina", "Peru", "Chile", "Kenya"],
-    "F": ["Colombia", "Spain", "Serbia", "Cameroon"],
-    "G": ["Germany", "Portugal", "Croatia", "Tunisia"],
-    "H": ["France", "Belgium", "Italy", "Sweden"],
-    "I": ["Netherlands", "Turkey", "Poland", "DR Congo"],
-    "J": ["England", "Denmark", "Slovakia", "Australia"],
-    "K": ["Japan", "South Korea", "Saudi Arabia", "Ivory Coast"],
-    "L": ["South Africa", "Nigeria", "Algeria", "New Zealand"],
+    "A": ["Mexico", "South Africa", "South Korea", "Czechia"],
+    "B": ["Canada", "Switzerland", "Qatar", "Bosnia and Herzegovina"],
+    "C": ["Brazil", "Morocco", "Haiti", "Scotland"],
+    "D": ["United States", "Paraguay", "Australia", "Türkiye"],
+    "E": ["Germany", "Curaçao", "Ivory Coast", "Ecuador"],
+    "F": ["Netherlands", "Japan", "Tunisia", "Sweden"],
+    "G": ["Belgium", "Egypt", "Iran", "New Zealand"],
+    "H": ["Spain", "Cabo Verde", "Saudi Arabia", "Uruguay"],
+    "I": ["France", "Senegal", "Norway", "Iraq"],
+    "J": ["Argentina", "Algeria", "Austria", "Jordan"],
+    "K": ["Portugal", "Uzbekistan", "Colombia", "DR Congo"],
+    "L": ["England", "Croatia", "Ghana", "Panama"],
 }
 
 ALL_TEAMS = [team for group in GROUPS_2026.values() for team in group]
